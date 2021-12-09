@@ -10,6 +10,5 @@ public class NeoPages {
 	{
 		this.driver=driver;
 		PageFactory.initElements(driver,this);
-		//
 	}
 }
