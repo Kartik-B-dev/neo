@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[FAIL]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-12-09T16:36:09 IST" name="Suite" finished-at="2021-12-09T16:36:40 IST" duration-ms="30157">
+    <groups>
+    </groups>
+    <test started-at="2021-12-09T16:36:09 IST" name="Fox" finished-at="2021-12-09T16:36:40 IST" duration-ms="30157">
+      <class name="com.qa.testScripts.TC_Neo_001">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.qa.testScripts.TC_Neo_001@6c130c45]" started-at="2021-12-09T16:36:09 IST" name="setUp" finished-at="2021-12-09T16:36:29 IST" duration-ms="19650" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://iamneo.ai/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Navigate()[pri:0, instance:com.qa.testScripts.TC_Neo_001@6c130c45]" started-at="2021-12-09T16:36:29 IST" name="Navigate" finished-at="2021-12-09T16:36:36 IST" duration-ms="6934" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[FAIL]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Navigate -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testScripts.TC_Neo_001@6c130c45]" started-at="2021-12-09T16:36:36 IST" name="tearDown" finished-at="2021-12-09T16:36:40 IST" duration-ms="3524" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testScripts.TC_Neo_001 -->
+    </test> <!-- Fox -->
+  </suite> <!-- Suite -->
+</testng-results>
